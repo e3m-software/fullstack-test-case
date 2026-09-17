@@ -81,14 +81,19 @@
 
 ## Requirements
 
-- [ ]  It should be use any framework, but prefered Laravel, [NestJS](https://nestjs.com/) Framework, Or [ExpressJS](https://expressjs.com/)
-- [ ]  It should be use Database (SQL/NoSQL)
+- [ ]  Use TypeScript throughout the backend
+- [ ]  Use [NestJS](https://nestjs.com/) as the framework
+- [ ]  Use a SQL database via a modern ORM (e.g. Prisma, Drizzle, or TypeORM)
+- [ ]  Use [pnpm](https://pnpm.io/) or [yarn](https://yarnpkg.com/) for dependency management and scripts
+- [ ]  Document the REST API with [OpenAPI](https://www.openapis.org/) / Swagger
 - [ ]  It should be open sourced on your github repo
 
 ## Extras
 
 - [ ]  Implement [DDD Pattern]([https://khalilstemmler.com/articles/categories/domain-driven-design/](https://khalilstemmler.com/articles/categories/domain-driven-design/))
 - [ ]  Implement Unit Testing
+- [ ]  Provide a docker-compose setup for the API and database
+- [ ]  Implement load testing with [k6](https://k6.io/)
 
 ## Notes
 - Feel free to add some structure or plugins
@@ -96,12 +101,14 @@
 
 # Frontend Test Case
 
-- [ ] Create features based on the RESTfull API that has been created using Laravel, Nest JES or Express JS.
+- [ ] Create features based on the RESTful API that has been created using NestJS.
 - [ ] It should use React
 - [ ] It should use TypeScript
 - [ ] It should use [Ant Design](https://ant.design/) for styling (you can customize the UI if you are interesting with UI/UX)
+- [ ] Use [pnpm](https://pnpm.io/) or [yarn](https://yarnpkg.com/) for dependency management and scripts
 - [ ] It should be open sourced on your github repo
 
 ## Extras
 - [ ] Test your components with [jest](https://jest-everywhere.now.sh)
 - [ ] It should use [Clean Architecture](https://medium.com/@rostislavdugin/the-clean-architecture-using-react-and-typescript-a832662af803) as design pattern
+- [ ] Use a monorepo (e.g. pnpm/yarn workspaces) to host the API and web app together (plus point)
